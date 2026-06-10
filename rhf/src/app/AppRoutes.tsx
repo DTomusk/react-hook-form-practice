@@ -4,6 +4,7 @@ import TextSubmit from "../pages/TextSubmit";
 import TextValidation from "../pages/TextValidation";
 import InputComponents from "../pages/InputComponents";
 import GenericInputComponents from "../pages/GenericInputComponents";
+import RadixComponentForm from "../pages/RadixComponentForm";
 
 export const router = createBrowserRouter([
     {
@@ -25,5 +26,9 @@ export const router = createBrowserRouter([
     {
         path: "/generic-input-components",
         element: <GenericInputComponents />,
+    },
+    {
+        path: "/radix-component-form",
+        element: <RadixComponentForm />,
     }
 ]);
