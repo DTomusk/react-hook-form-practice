@@ -9,6 +9,7 @@ export default function HomePage() {
             <Link to="/text-submit">1. Text input with submit</Link>
             <Link to="/text-validation">2. Text input with validation</Link>
             <Link to="/input-components">3. Input components</Link>
+            <Link to="/generic-input-components">4. Generic Input components</Link>
         </div>
     )
 }
